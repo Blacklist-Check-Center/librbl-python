@@ -1,7 +1,11 @@
+#!/bin/venv/python
+
 import urllib
 import os
 
-def write_to_file(response, name_of_the_file=temp.txt)
+name_of_the_file=""
+
+def write_to_file(response, name_of_the_file="temp.txt")
     file = open(name_of_the_file, "a")
     file.write(response)
     file.close()
